@@ -9,12 +9,6 @@ database of 1,747 alien vascular plant species.
 
 ---
 
-## Demo Video
-
-[Add YouTube link here]
-
----
-
 ## What This Project Does
 
 Forest officers, researchers, and policymakers need quick, 
