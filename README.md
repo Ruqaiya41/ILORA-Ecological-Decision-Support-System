@@ -5,14 +5,8 @@ data using Retrieval-Augmented Generation (RAG) and
 [Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) 
 *(Llama 3.2 Community License)*.
 
-Built on the ILORA database — India's first comprehensive 
+Built on the ILORA database India's first comprehensive 
 database of 1,747 alien vascular plant species.
-
----
-
-## Demo Video
-
-[Add YouTube link here]
 
 ---
 
@@ -29,7 +23,7 @@ ILORA data — and explicitly says so when data is unavailable.
 
 | Notebook | Description | Open in Colab |
 |---|---|---|
-| `ILORA_Notebook1_DataPipeline.ipynb` | 16 ILORA tables → 1,747 text chunks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Il0fmfOuZmcxH8Beh6YJf6JaI_Q_IGVO?usp=sharing) |
+| `ILORA_Notebook1_DataPipeline.ipynb` | 16 ILORA tables to 1,747 text chunks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Il0fmfOuZmcxH8Beh6YJf6JaI_Q_IGVO?usp=sharing) |
 | `ILORA_Notebook2_RAG_System.ipynb` | RAG chatbot + few-shot classifier + Gradio | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Io3FGdGiSA9LTTSIidHDGlW5buTiDpp9?usp=sharing) |
 
 ---
@@ -44,7 +38,6 @@ ILORA data — and explicitly says so when data is unavailable.
 
 ---
 
-## System Architecture
 ## System Architecture
 
 ```
