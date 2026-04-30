@@ -4,7 +4,7 @@ An open-source AI toolkit for querying invasive alien species
 data using Retrieval-Augmented Generation (RAG) and Small 
 Language Models (SLMs).
 
-Built on the ILORA database — India's first comprehensive 
+Built on the ILORA database - India's first comprehensive 
 database of 1,747 alien vascular plant species.
 
 ---
@@ -20,7 +20,7 @@ database of 1,747 alien vascular plant species.
 Forest officers, researchers, and policymakers need quick, 
 reliable answers about invasive species. General-purpose AI 
 tools hallucinate. This system answers only from verified 
-ILORA data — and explicitly says so when data is unavailable.
+ILORA data - and explicitly says so when data is unavailable.
 
 ---
 
@@ -99,10 +99,10 @@ Built on the ILORA database:
 
 ## Limitations
 
-- State-level distribution only — no district level data
+- State-level distribution only - no district level data
 - No management strategy data in ILORA
-- English only — no multilingual support yet
-- Classifier accuracy 79.17% — fine-tuning needed for deployment
+- English only - no multilingual support yet
+- Classifier accuracy 79.17% - fine-tuning needed for deployment
 
 ---
 
