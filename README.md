@@ -28,7 +28,7 @@ ILORA data - and explicitly says so when data is unavailable.
 
 | Notebook | Description |
 |---|---|
-| `ILORA_Notebook1_DataPipeline.ipynb` | 16 ILORA tables → 1,747 text chunks |
+| `ILORA_Notebook1_DataPipeline.ipynb` | 16 ILORA tables to 1,747 text chunks |
 | `ILORA_Notebook2_RAG_System.ipynb` | RAG chatbot + few-shot classifier + Gradio |
 
 ---
@@ -103,19 +103,6 @@ Built on the ILORA database:
 - No management strategy data in ILORA
 - English only - no multilingual support yet
 - Classifier accuracy 79.17% - fine-tuning needed for deployment
-
----
-
-## Research Roadmap
-
-This PoC is part of a larger research proposal to develop 
-a reliable, multilingual, expert-validated decision support 
-system for invasive species management in India:
-
-- Year 1 → Data enrichment with GBIF and field survey reports
-- Year 2 → Fine-tuning SLM on annotated dataset → 90%+ accuracy
-- Year 3-4 → Multilingual support and expert evaluation
-- Year 5 → Public deployment and research publication
 
 ---
 
