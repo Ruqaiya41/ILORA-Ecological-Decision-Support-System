@@ -15,7 +15,7 @@ database of 1,747 alien vascular plant species.
 Forest officers, researchers, and policymakers need quick, 
 reliable answers about invasive species. General-purpose AI 
 tools hallucinate. This system answers only from verified 
-ILORA data — and explicitly says so when data is unavailable.
+ILORA data and explicitly says so when data is unavailable.
 
 ---
 
