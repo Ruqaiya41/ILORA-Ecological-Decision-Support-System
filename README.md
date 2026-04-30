@@ -1,21 +1,24 @@
 # ILORA Ecological Decision Support System
+An open-source AI toolkit for querying invasive alien species data using Retrieval-Augmented Generation (RAG) and [Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)  (Llama 3.2 Community License).
+Built on the Indian Alien Flora Information (ILORA) database, India's first comprehensive database of 1,747 alien vascular plant species across 16 relational tables covering taxonomy, geographic distribution, habitat, invasion status, introduction pathways, native range, economic uses, ecoregions, and occurrence records.
 
-An open-source AI toolkit for querying invasive alien species 
-data using Retrieval-Augmented Generation (RAG) and 
-[Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) 
-*(Llama 3.2 Community License)*.
+---
 
-Built on the The Indian Alien Flora Information (ILORA) database India's first comprehensive 
-database of 1,747 alien vascular plant species.
+## Problem Context
+
+Effective management of invasive alien plant species in India is constrained by the lack of accessible, integrated, and decision-ready ecological information. Forest officers, researchers, and policymakers struggle to get reliable, location-specific insights when they need them, leading to misidentification of species, incorrect risk assessment, and delayed or ineffective management actions.
+General-purpose AI tools like ChatGPT are increasingly used to query ecological information, but they are not grounded in verified, India-specific data and frequently hallucinate, producing outputs that appear coherent but are factually incorrect. This is particularly dangerous in ecological decision-making.
+This system answers only from verified ILORA data and explicitly says so when data is unavailable.
 
 ---
 
 ## What This Project Does
 
-Forest officers, researchers, and policymakers need quick, 
-reliable answers about invasive species. General-purpose AI 
-tools hallucinate. This system answers only from verified 
-ILORA data and explicitly says so when data is unavailable.
+- Converts all 16 ILORA relational tables into 1,747 AI-ready text chunks (Notebook 1)
+- Builds a semantic search index over those chunks using FAISS (Notebook 2)
+- Powers a grounded RAG chatbot with an anti-hallucination guardrail (Notebook 2)
+- Provides a few-shot classifier for 8 ecological categories (Notebook 2)
+- Exposes both systems via a Gradio UI (Notebook 2)
 
 ---
 
