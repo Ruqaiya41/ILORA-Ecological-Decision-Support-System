@@ -5,7 +5,7 @@ data using Retrieval-Augmented Generation (RAG) and
 [Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) 
 *(Llama 3.2 Community License)*.
 
-Built on the ILORA database India's first comprehensive 
+Built on the The Indian Alien Flora Information (ILORA) database India's first comprehensive 
 database of 1,747 alien vascular plant species.
 
 ---
